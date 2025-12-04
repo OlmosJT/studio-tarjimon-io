@@ -1,0 +1,75 @@
+{
+  "brand": "Translator Studio",
+  "nav": {
+    "projects": "My Projects",
+    "create": "Create Project",
+    "comments": "Comments",
+    "followers": "Followers",
+    "settings": "Settings"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong.",
+    "optional": "Optional"
+  },
+  "dashboard": {
+    "loading": "Loading projects...",
+    "error": "Unable to load projects.",
+    "active": {
+      "title": "Active Translations",
+      "subtitle": "Manage your ongoing novel translation projects.",
+      "create": "Create New Project",
+      "limit_reached": "Limit Reached",
+      "limit_alert_message": "You have reached the limit of {count} active projects. Please complete a project before creating a new one."
+    },
+    "completed": {
+      "title": "Completed Projects",
+      "subtitle": "Translations that have been fully translated."
+    },
+    "other": {
+      "title": "Other Projects",
+      "subtitle": "Projects currently on hiatus or dropped."
+    }
+  },
+  "project_detail": {
+    "back_to_projects": "Back to Projects",
+    "chapters": "Chapters",
+    "no_chapters": "No chapters yet",
+    "no_chapters_desc": "Create your first chapter to get started.",
+    "new_chapter": "New Chapter",
+    "locked_alert": {
+      "title": "Workflow Locked",
+      "message": "You must mark the previous chapter as Completed or Published before starting a new one."
+    },
+    "status": {
+      "draft": "Draft",
+      "completed": "Completed",
+      "published": "Published",
+      "mark_done": "Mark Done",
+      "publish": "Publish",
+      "updating": "Updating...",
+      "publishing": "Publishing..."
+    },
+    "about": {
+      "title": "About the Project",
+      "description": "Description",
+      "no_desc": "No description provided for this project.",
+      "author": "Author",
+      "language": "Language",
+      "created": "Created",
+      "status": "Status",
+      "tags": "Tags"
+    },
+    "modal": {
+      "title": "Create Chapter",
+      "info": "A Google Doc will be automatically created and linked to this chapter.",
+      "label_title": "Chapter Title",
+      "label_subtitle": "Subtitle",
+      "placeholder_title": "e.g. The Awakening",
+      "placeholder_subtitle": "e.g. Part 1",
+      "cancel": "Cancel",
+      "create_btn": "Create & Open Doc",
+      "creating_btn": "Creating..."
+    }
+  }
+}

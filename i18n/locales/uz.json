@@ -1,0 +1,75 @@
+{
+  "brand": "Tarjimon Studiyasi",
+  "nav": {
+    "projects": "Loyihalarim",
+    "create": "Loyiha yaratish",
+    "comments": "Izohlar",
+    "followers": "Obunachilar",
+    "settings": "Sozlamalar"
+  },
+  "common": {
+    "loading": "Yuklanmoqda...",
+    "error": "Xatolik yuz berdi.",
+    "optional": "Ixtiyoriy"
+  },
+  "dashboard": {
+    "loading": "Loyihalar yuklanmoqda...",
+    "error": "Loyihalarni yuklab bo'lmadi.",
+    "active": {
+      "title": "Faol Tarjimalar",
+      "subtitle": "Jarayondagi roman tarjimalarini boshqaring.",
+      "create": "Yangi Loyiha Yaratish",
+      "limit_reached": "Limitga yetildi",
+      "limit_alert_message": "Siz {count} ta faol loyiha limitiga yetdingiz. Yangisini yaratishdan oldin bittasini yakunlang."
+    },
+    "completed": {
+      "title": "Tugallangan Loyihalar",
+      "subtitle": "To'liq tarjima qilingan kitoblar."
+    },
+    "other": {
+      "title": "Boshqa Loyihalar",
+      "subtitle": "To'xtatilgan yoki tashlab ketilgan loyihalar."
+    }
+  },
+  "project_detail": {
+    "back_to_projects": "Loyihalarga qaytish",
+    "chapters": "Boblar",
+    "no_chapters": "Hozircha boblar yo'q",
+    "no_chapters_desc": "Boshlash uchun birinchi bobni yarating.",
+    "new_chapter": "Yangi Bob",
+    "locked_alert": {
+      "title": "Jarayon Qulflangan",
+      "message": "Yangisini boshlashdan oldin oldingi bobni Tugallangan yoki Nashr qilingan deb belgilashingiz kerak."
+    },
+    "status": {
+      "draft": "Qoralama",
+      "completed": "Tugallangan",
+      "published": "Nashr qilingan",
+      "mark_done": "Tugallash",
+      "publish": "Nashr qilish",
+      "updating": "Yangilanmoqda...",
+      "publishing": "Nashr qilinmoqda..."
+    },
+    "about": {
+      "title": "Loyiha Haqida",
+      "description": "Tavsif",
+      "no_desc": "Bu loyiha uchun tavsif berilmagan.",
+      "author": "Muallif",
+      "language": "Til",
+      "created": "Yaratilgan",
+      "status": "Holati",
+      "tags": "Teglar"
+    },
+    "modal": {
+      "title": "Bob Yaratish",
+      "info": "Ushbu bob uchun avtomatik ravishda Google Doc yaratiladi va bog'lanadi.",
+      "label_title": "Bob Nomi",
+      "label_subtitle": "Sarlavha osti",
+      "placeholder_title": "m-n: Uyg'onish",
+      "placeholder_subtitle": "m-n: 1-qism",
+      "cancel": "Bekor qilish",
+      "create_btn": "Yaratish va Ochish",
+      "creating_btn": "Yaratilmoqda..."
+    }
+  }
+}

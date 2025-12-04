@@ -1,0 +1,9 @@
+body {
+    background-color: #f4f4f4 !important;
+}
+
+.test-style {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}

@@ -1,75 +1,26 @@
-# Nuxt Minimal Starter
-
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
-Make sure to install dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+.
+├── .idea/                     # IDE configs (auto)
+├── .nuxt/                     # Built Nuxt code (auto, ignored)
+├── node_modules/              # Dependencies (auto)
+├── app/
+│   ├── plugins/               # Plugins that run before app mounting
+│   ├── layouts/               # Application layouts (default.vue, admin.vue, etc.)
+│   ├── middleware/            # Route middleware (auth, admin-check, etc.)
+│   ├── components/            # Reusable components
+│   ├── pages/                 # All pages become routes automatically
+│   ├── composables/           # Reusable logic (like Spring services)
+│   ├── utils/                 # Helpers (formatters, validators)
+│   ├── services/              # API clients (Axios/fetch wrappers)
+│   ├── assets/                # SCSS, static images (processed by Vite)
+│   ├── public/                # Static files served as-is
+│   └── app.vue                # Root component
+│
+├── server/                    # Nitro server routes (like mini backend)
+│   ├── api/                   # Server API endpoints
+│   ├── middleware/            # Server-side middleware
+│   └── utils/                 # Server utilities
+│
+├── nuxt.config.ts             # Nuxt configuration
+├── package.json               # Dependencies & scripts
+├── tsconfig.json              # TS config
+└── README.md
