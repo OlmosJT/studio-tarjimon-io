@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     devtools: { enabled: true },
 
     routeRules: {
-        '/': { redirect: '/dashboard' }
+        '/': { redirect: '/login' }
     },
 
     /**
@@ -22,12 +22,12 @@ export default defineNuxtConfig({
      * Runtime Config (environment variables)
      * You will use this to call your Spring Boot backend
      */
-    // runtimeConfig: {
-    //     public: {
-    //         apiBase: process.env.API_BASE_URL || 'http://localhost:8080',
-    //         appName: 'Studio Tarjimon'
-    //     }
-    // },
+    runtimeConfig: {
+        public: {
+            apiBase: 'http://localhost:8080',
+            appName: 'Translator Studio'
+        }
+    },
 
     /**
      * Modules typically used in dashboards
